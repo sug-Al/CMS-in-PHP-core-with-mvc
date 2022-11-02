@@ -1,0 +1,16 @@
+{
+    "name": "ubos/mvc",
+    "scripts": {
+        "serve": "php -S localhost:8080 -t public",
+        "stop": "killall -9 php"
+    },
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "app\\" : "./"
+        }
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}
